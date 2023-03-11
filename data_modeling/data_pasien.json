@@ -1,0 +1,35 @@
+{
+    "norm":"",
+    "nama":"Nama Pasien",
+    "tgllahir":"1990-10-10",
+    "jk":"L",
+    "tmptlahir":"KOTA BANDUNG",
+    "nik":"",
+    "nobpjs":"",
+    "agama":"",
+    "stskawin":"",
+    "goldarah":"",
+    "kewarganegaraan":"",
+    "bahasa":"",
+    "sukubangsa":"",
+    "alamat":{
+        "rt":"",
+        "rw":"",
+        "kelurahan":"",
+        "kecamatan":"",
+        "kotakab":"",
+        "provinsi":"",
+        "kodepos":""
+    },
+    "pendidikan":"",
+    "pekerjaan":"",
+    "notelp":{
+        "kantor":"",
+        "nohp":""
+    },
+    "keluarga":{
+        "ayah":"",
+        "ibu":"",
+        "suamiistri":""
+    }
+}

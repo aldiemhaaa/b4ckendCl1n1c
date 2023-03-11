@@ -1,0 +1,11 @@
+{
+    "id":"1",
+    "nama":"ADMIN",
+    "menu":[
+        {
+            "nama":"PENDAFTARAN ULANG",
+            "url":"/daftarulang",
+            "icon":"icons-books"
+        }
+    ]
+}

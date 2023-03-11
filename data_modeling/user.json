@@ -1,0 +1,9 @@
+{
+    "nama":"Administrator",
+    "username":"admin",
+    "password":"admin",
+    "role":{
+        "id":"1",
+        "nama":"ADMIN"
+    }
+}
