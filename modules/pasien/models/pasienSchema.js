@@ -5,7 +5,7 @@ exports.Pasien = sequelize.define('pasien', {
   id:{type:DataTypes.INTEGER,primaryKey:true,autoIncrement:true},
   norm: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: true
   },
   nama: {
     type: DataTypes.STRING,

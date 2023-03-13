@@ -6,9 +6,6 @@ exports.create = (req, res) => {
   return crud.create(DaftarulangSchema.Daftarulang,req.body,res);
 };
 
-// exports.getAll = (req, res) => {
-//   return crud.getAll(DaftarulangSchema.Daftarulang,res);
-// };
 exports.getById = (req,res)=>{
   return crud.getById(DaftarulangSchema.Daftarulang,req.params.id,res);
 }
@@ -48,7 +45,7 @@ exports.getByTglKunjungan = (req,res)=>{
 }
 
 exports.getByPoli = (req,res)=>{
-  return DaftarulangSchema.Daftarulang.find({
+  return DaftarulangSchema.Daftarulang.findAll({
     where:{
       poli:req.params.id
     }

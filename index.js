@@ -25,7 +25,7 @@ app.use('/api/v1/menu',menuRouter);
 app.use('/api/v1/rolemenu',rolemenuRouter);
 app.use('/api/v1/userrole',userroleRouter);
 app.use('/api/v1/pasien',pasienRouter);
-app.use('/api/v1/daftarulang',pasienRouter);
+app.use('/api/v1/daftarulang',daftarulangRouter);
 
 
 app.listen(3001,()=>{

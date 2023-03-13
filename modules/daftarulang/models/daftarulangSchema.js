@@ -9,7 +9,7 @@ exports.Daftarulang = sequelize.define('daftarulang', {
   },
   noreg: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: true
   },
   tglkunjungan: {
     type: DataTypes.DATE,
@@ -26,7 +26,11 @@ exports.Daftarulang = sequelize.define('daftarulang', {
   dokter: {
     type: DataTypes.STRING,
     allowNull: false
-  }
+  },
+  carakunj:{
+    type:DataTypes.STRING,
+    allowNull:true
+  },
   
 }, {
   indexes:[
